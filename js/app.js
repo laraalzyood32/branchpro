@@ -48,7 +48,7 @@ function multiply(a, b) {
         function sumArray(add3) { 
             let array3 = [];
    
-       let add3 = sum((add3[0]), (add3[1]));
+       let add3= sum((add3[0]), (add3[1]));
          add3 = add3[0];
          let finaladd1= sum(add3, add3[2][0]);
 
@@ -59,5 +59,26 @@ function multiply(a, b) {
 
            }
  testSumArray(testArray);
+
+ function multiplyArray(multArr) { 
+       let  Array4= [];
+    
+    let AsyncB = multiply((multArr[0]), (multArr[1]));
+      AsyncB = AsyncB[0];
+    
+     
+     let finalmul= multiply(AsyncB, multArr[2]);
+      finalmul = finalmul[0];
+      Array4[0] = finalmul;
+    
+    
+       Array4[1] = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${finalmul}.`
+    
+     return Array4;
+    
+     }
+    
+    
+     testMultiplyArray(testArray);
  
 
