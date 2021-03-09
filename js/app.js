@@ -41,3 +41,23 @@ function multiply(a, b) {
         
          }
          testSumAndMultiply(4,7,5);
+
+
+         let  testArray = [2, 3, 4]; 
+
+        function sumArray(add3) { 
+            let array3 = [];
+   
+       let add3 = sum((add3[0]), (add3[1]));
+         add3 = add3[0];
+         let finaladd1= sum(add3, add3[2][0]);
+
+           array3[0] = finalSum;
+
+        array3[1] = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${finalSum} is their sum.`
+        return array3;
+
+           }
+ testSumArray(testArray);
+ 
+
