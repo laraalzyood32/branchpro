@@ -82,7 +82,7 @@ function multiply(a, b) {
      testMultiplyArray(testArray);
  
 
-     let  testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+     let  testDynamicArray = [1,2,3,4,5]; 
 
 
       function multiplyAnyArray(dynamicArray) { 
