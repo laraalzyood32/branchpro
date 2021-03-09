@@ -1,3 +1,4 @@
+'use strict';
 function sum(a, b) {
         
     let  Array = [];
@@ -7,6 +8,7 @@ function sum(a, b) {
     Array[1] = result;
     return Array;
     }
+
     
     testSum(4, 7);
 
