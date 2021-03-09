@@ -82,3 +82,29 @@ function multiply(a, b) {
      testMultiplyArray(testArray);
  
 
+     let  testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+
+
+      function multiplyAnyArray(dynamicArray) { 
+     
+              let  Array6 = [];
+       
+              let numberOfElements = dynamicArray.length;
+     
+                 let  product;
+     
+       let  value = dynamicArray[0];
+     
+       for (let  i = 1; i < numberOfElements + 1; i++) {
+         product = multiply(value, i);
+         value = product[0];
+         console.log(`value is ${value}`);
+      }
+     
+       Array6[0] = value;
+     
+       Array6[1] = (`The numbers ${dynamicArray} have a product of ${value}.`)
+       return Array6;
+      }
+
+     testMultiplyAnyArray(testDynamicArray);
